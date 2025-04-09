@@ -1,0 +1,1 @@
+export default function Dashboard() { return <main className="p-10 text-center">Dashboard Content</main>; }

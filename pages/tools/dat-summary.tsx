@@ -1,0 +1,1 @@
+export default function DatSummary() { return <div>DAT Summary Tool</div>; }
