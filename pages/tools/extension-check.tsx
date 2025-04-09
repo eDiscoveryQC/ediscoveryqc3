@@ -1,0 +1,1 @@
+// Extension Check Tool placeholder
