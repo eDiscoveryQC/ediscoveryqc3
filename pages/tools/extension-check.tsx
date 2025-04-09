@@ -1,1 +1,0 @@
-// Extension Check Tool page

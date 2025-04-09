@@ -1,1 +1,0 @@
-// Dashboard with tool search and icons

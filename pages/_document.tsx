@@ -1,1 +1,0 @@
-// Document setup for favicon
