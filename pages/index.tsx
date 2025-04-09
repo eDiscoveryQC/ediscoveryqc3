@@ -1,1 +1,0 @@
-<html><body><h1>Home Page Placeholder</h1></body></html>
