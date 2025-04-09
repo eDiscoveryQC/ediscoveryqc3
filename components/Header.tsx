@@ -1,0 +1,1 @@
+// Shared header with logo and navigation
