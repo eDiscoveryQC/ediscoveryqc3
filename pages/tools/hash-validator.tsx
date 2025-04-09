@@ -1,1 +1,0 @@
-// Hash Validator placeholder
