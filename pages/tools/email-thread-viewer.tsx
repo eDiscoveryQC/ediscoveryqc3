@@ -1,1 +1,0 @@
-// Email Thread Viewer Tool placeholder

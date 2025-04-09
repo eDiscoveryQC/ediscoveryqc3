@@ -1,1 +1,0 @@
-// Full homepage with tagline and CTA
