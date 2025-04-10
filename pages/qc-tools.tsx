@@ -1,7 +1,7 @@
 // pages/qc-tools.tsx
 import Head from 'next/head'
 
-export default function QCTools() {
+const QCTools = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-white px-6 py-12">
       <Head>
@@ -79,3 +79,5 @@ export default function QCTools() {
     </div>
   )
 }
+
+export default QCTools
