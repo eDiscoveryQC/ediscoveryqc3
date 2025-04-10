@@ -24,7 +24,10 @@ export default function Home() {
           </p>
         </div>
       )}
-      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div className="relative max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        {/* Hero Section with Background Image */}
+        <div className="absolute inset-0 -z-10 bg-cover bg-center" style={{ backgroundImage: 'url("/hero-image.jpg")' }}></div>
+        
         {/* Left Section - Product Description */}
         <div className="text-center lg:text-left">
           <Image src="/logo.png" alt="eDiscoveryQC Logo" width={60} height={60} className="mx-auto lg:mx-0 mb-6" />
@@ -44,7 +47,7 @@ export default function Home() {
             Start your 7-day free trial — no credit card required.</p>
         </div>
 
-        {/* Right Section - Dashboard Preview with CTA */}
+        {/* Right Section - Login Form */}
         <div className="bg-white p-8 rounded-xl shadow-xl text-center max-w-md w-full mx-auto border border-blue-100">
           <h2 className="text-2xl font-bold text-blue-900 mb-6 animate__animated animate__fadeIn animate__delay-2s">Sign in to eDiscoveryQC</h2>
           <form className="space-y-4 text-left">
@@ -63,15 +66,6 @@ export default function Home() {
           <p className="mt-6 text-sm text-gray-600">
             Don’t have an account? <a href="/signup" className="text-blue-700 hover:underline font-medium">Start your 7-day free trial</a>
           </p>
-        </div>
-      </div>
-      {/* Trust Elements / Testimonials */}
-      <div className="mt-12 text-center">
-        <h2 className="text-3xl font-bold text-blue-900 mb-6">Trusted by Leading Legal Teams</h2>
-        <div className="flex justify-center space-x-6">
-          <Image src="/client1-logo.png" alt="Client 1" width={100} height={50} className="opacity-70" />
-          <Image src="/client2-logo.png" alt="Client 2" width={100} height={50} className="opacity-70" />
-          <Image src="/client3-logo.png" alt="Client 3" width={100} height={50} className="opacity-70" />
         </div>
       </div>
     </div>
