@@ -1,1 +1,0 @@
-export default function Page() { return <div>tools/extension-check.tsx content here</div>; }

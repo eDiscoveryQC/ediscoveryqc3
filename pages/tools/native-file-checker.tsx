@@ -1,1 +1,0 @@
-export default function Page() { return <div>tools/native-file-checker.tsx content here</div>; }

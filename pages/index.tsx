@@ -1,1 +1,0 @@
-export default function Page() { return <div>index.tsx content here</div>; }
