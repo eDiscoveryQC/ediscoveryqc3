@@ -132,4 +132,27 @@ export default function Home() {
       {/* Contact Section */}
       <div id="contact" className="max-w-7xl mx-auto py-12">
         <h2 className="text-3xl font-semibold text-blue-900 text-center mb-8">Contact Us</h2>
-        <form className="max-w-3xl mx-auto
+        <form className="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-lg">
+          <div className="space-y-4">
+            <div>
+              <label className="block mb-1 text-sm font-medium text-gray-700">Full Name</label>
+              <input type="text" className="w-full border border-gray-300 p-3 rounded-md" placeholder="Your Name" />
+            </div>
+            <div>
+              <label className="block mb-1 text-sm font-medium text-gray-700">Email Address</label>
+              <input type="email" className="w-full border border-gray-300 p-3 rounded-md" placeholder="you@example.com" />
+            </div>
+            <div>
+              <label className="block mb-1 text-sm font-medium text-gray-700">Message</label>
+              <textarea className="w-full border border-gray-300 p-3 rounded-md" rows={6} placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" className="bg-blue-700 hover:bg-blue-800 text-white py-3 px-8 rounded-lg font-semibold transition-transform transform hover:scale-105">
+              Send Message
+            </button>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  )
+}
