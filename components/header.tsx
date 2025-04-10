@@ -14,6 +14,7 @@ const Header = () => {
           />
         </a>
         <nav className="space-x-6">
+          {/* Menu Items */}
           <Link href="/" passHref>
             <a className="text-blue-700 hover:text-blue-900 transition">Home</a>
           </Link>
@@ -39,4 +40,3 @@ const Header = () => {
 }
 
 export default Header
-
