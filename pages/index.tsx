@@ -30,12 +30,14 @@ export default function Home() {
         {/* Left Side - Hero Section */}
         <div className="text-center lg:text-left px-6 py-12">
           <img 
-            src="/ediscoveryqc.svg" 
+            src="/ediscoveryqclogo.svg" 
             alt="eDiscoveryQC Logo" 
             className="mx-auto mb-6" 
-            width={480} 
-            height={240} 
-            style={{ filter: 'invert(39%) sepia(77%) saturate(5612%) hue-rotate(179deg) brightness(91%) contrast(91%)' }}  // Optional: add color effects via CSS filter
+            width={300} 
+            height={150} 
+            style={{
+              filter: 'invert(39%) sepia(77%) saturate(5612%) hue-rotate(179deg) brightness(91%) contrast(91%)' // Change the color
+            }} 
           />
           <h1 className="text-5xl font-extrabold text-blue-900 mb-6">
             Smarter eDiscovery Starts With Better QC
