@@ -26,7 +26,7 @@ export default function Home() {
       )}
       {/* Hero Section with Dashboard Mockup */}
       <div className="absolute inset-0 -z-10 bg-cover bg-center" style={{ backgroundImage: 'url("/mnt/data/A_digital_screenshot_of_an_eDiscoveryQC_SaaS_dashb.png")' }}>
-        <div className="bg-gradient-to-r from-transparent to-blue-900 opacity-40 h-full w-full"></div> {/* Gradient overlay */}
+        <div className="bg-gradient-to-r from-transparent to-blue-900 opacity-60 h-full w-full"></div> {/* Stronger gradient overlay */}
       </div>
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         {/* Left Section - Product Description */}
