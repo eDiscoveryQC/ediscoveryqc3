@@ -11,7 +11,7 @@ export default function Home() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-white px-4 py-10">
+    <div className="min-h-screen relative bg-gradient-to-br from-blue-50 to-white px-4 py-10">
       <Head>
         <title>eDiscoveryQC – Smarter eDiscovery QC</title>
       </Head>
@@ -24,27 +24,30 @@ export default function Home() {
           </p>
         </div>
       )}
-      <div className="relative max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-        {/* Hero Section with Background Image */}
-        <div className="absolute inset-0 -z-10 bg-cover bg-center" style={{ backgroundImage: 'url("/hero-image.jpg")' }}></div>
-        
+      {/* Hero Section with Background Image */}
+      <div className="absolute inset-0 -z-10 bg-cover bg-center" style={{ backgroundImage: 'url("/hero-image.jpg")' }}>
+        <div className="bg-gradient-to-r from-transparent to-blue-900 opacity-40 h-full w-full"></div> {/* Gradient overlay */}
+      </div>
+
+      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         {/* Left Section - Product Description */}
-        <div className="text-center lg:text-left">
+        <div className="text-center lg:text-left px-4">
           <Image src="/logo.png" alt="eDiscoveryQC Logo" width={60} height={60} className="mx-auto lg:mx-0 mb-6" />
-          <h1 className="text-5xl lg:text-6xl font-extrabold text-blue-900 leading-tight mb-6 animate__animated animate__fadeIn animate__delay-1s">
+          <h1 className="text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-6 animate__animated animate__fadeIn animate__delay-1s">
             Smarter eDiscovery <br /> Starts With Better QC
           </h1>
-          <p className="text-lg text-gray-700 mb-8">
+          <p className="text-lg text-gray-200 mb-8 animate__animated animate__fadeIn animate__delay-2s">
             eDiscoveryQC is a SaaS platform that helps legal teams and litigation support specialists ensure data accuracy and defensibility before review begins. Run extension audits, validate metadata, identify hash mismatches, and more.
           </p>
-          <ul className="text-left text-sm text-gray-600 list-disc pl-5 space-y-1">
+          <ul className="text-left text-sm text-gray-300 list-disc pl-5 space-y-1 animate__animated animate__fadeIn animate__delay-3s">
             <li>✔ Validate DAT files, hash values, and file extensions</li>
             <li>✔ Parent-child relationship checks</li>
             <li>✔ Track missing files or metadata gaps</li>
             <li>✔ AI-assisted summaries and insights</li>
           </ul>
-          <p className="mt-6 text-sm text-gray-600">
-            Start your 7-day free trial — no credit card required.</p>
+          <p className="mt-6 text-sm text-gray-300 animate__animated animate__fadeIn animate__delay-4s">
+            Start your 7-day free trial — no credit card required.
+          </p>
         </div>
 
         {/* Right Section - Login Form */}
