@@ -25,11 +25,10 @@ export default function Home() {
         </div>
       )}
 
-      {/* Split Layout Section */}
-      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-        {/* Left Side - Hero Section */}
-        <div className="text-center lg:text-left px-6 py-12">
-          {/* Logo - using <img> for proper rendering */}
+      {/* Hero Section */}
+      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center text-center lg:text-left">
+        <div className="px-6 py-12">
+          {/* Logo */}
           <img 
             src="/ediscoveryqclogo.png" 
             alt="eDiscoveryQC Logo" 
@@ -38,10 +37,10 @@ export default function Home() {
             height={240} 
           />
           <h1 className="text-5xl font-extrabold text-blue-900 mb-6">
-            Smarter eDiscovery Starts With Better QC
+            Unleash the Power of Smarter eDiscovery QC
           </h1>
           <p className="text-lg text-gray-700 mb-8 px-4 lg:px-0">
-            Ensure your data integrity with AI-driven insights and automated workflows for legal teams and compliance specialists. Simplify the process, save time, and ensure accuracy.
+            At eDiscoveryQC, we make sure your data is perfect and ready for the courtroom. Our platform empowers legal teams and compliance specialists to optimize their eDiscovery workflows.
           </p>
           <div className="flex justify-center lg:justify-start gap-6">
             <a href="/signup" className="bg-blue-700 hover:bg-blue-800 text-white py-3 px-8 rounded-lg font-semibold transition-transform transform hover:scale-105">
@@ -52,30 +51,23 @@ export default function Home() {
             </a>
           </div>
         </div>
-
-        {/* Right Side - Login Form */}
-        <div className="bg-white p-8 rounded-lg shadow-lg text-center max-w-md w-full mx-auto border border-blue-100">
-          <h2 className="text-2xl font-bold text-blue-900 mb-6">Sign in to eDiscoveryQC</h2>
-          <form className="space-y-4 text-left">
-            <div>
-              <label className="block mb-1 text-sm font-medium text-gray-700">Email address</label>
-              <input type="email" className="w-full border border-gray-300 p-3 rounded-md" placeholder="you@example.com" />
-            </div>
-            <div>
-              <label className="block mb-1 text-sm font-medium text-gray-700">Password</label>
-              <input type="password" className="w-full border border-gray-300 p-3 rounded-md" placeholder="••••••••" />
-            </div>
-            <button type="submit" className="w-full bg-blue-700 hover:bg-blue-800 text-white py-3 rounded-md font-medium transform transition-transform hover:scale-105">
-              Sign In
-            </button>
-          </form>
-          <p className="mt-6 text-sm text-gray-600">
-            Don’t have an account? <a href="/signup" className="text-blue-700 hover:underline font-medium">Start your 7-day free trial</a>
+        
+        {/* Right Section - Hero Background */}
+        <div className="px-6 py-12">
+          <h2 className="text-4xl font-bold text-blue-900 mb-4">Why Choose Us?</h2>
+          <p className="text-lg text-gray-600 mb-8">
+            We don't just follow industry standards – we set them. With eDiscoveryQC, you’ll experience seamless automation, AI-powered insights, and best-in-class security, all designed to make your eDiscovery process faster and more efficient than ever.
           </p>
+          <ul className="text-lg list-inside list-disc text-gray-700 space-y-4">
+            <li>📊 **Automated workflows** for error-free data validation and review</li>
+            <li>💡 **AI-driven insights** to help you focus on what's important</li>
+            <li>🔒 **Secure, reliable** platform built with compliance in mind</li>
+            <li>🚀 **Fast and scalable** solutions for your evolving needs</li>
+          </ul>
         </div>
       </div>
 
-      {/* Features Section (Icons Removed, New Feature Added) */}
+      {/* Innovative Feature Section */}
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 text-center py-12">
         <div className="bg-white p-8 rounded-lg shadow-lg transform transition-transform hover:scale-105 hover:shadow-2xl">
           <h3 className="text-2xl font-semibold text-blue-900 mb-4">Automated DAT File Validation</h3>
@@ -84,25 +76,30 @@ export default function Home() {
           </p>
         </div>
         <div className="bg-white p-8 rounded-lg shadow-lg transform transition-transform hover:scale-105 hover:shadow-2xl">
-          <h3 className="text-2xl font-semibold text-blue-900 mb-4">Smart Data Insights with AI</h3>
+          <h3 className="text-2xl font-semibold text-blue-900 mb-4">AI-Driven Data Insights</h3>
           <p className="text-gray-600">
-            Use AI to gain actionable insights from your data, detecting anomalies and improving your review process.
+            Gain powerful insights from your data with AI, optimizing review processes and identifying anomalies.
           </p>
         </div>
         <div className="bg-white p-8 rounded-lg shadow-lg transform transition-transform hover:scale-105 hover:shadow-2xl">
-          <h3 className="text-2xl font-semibold text-blue-900 mb-4">AI-Powered Summaries</h3>
+          <h3 className="text-2xl font-semibold text-blue-900 mb-4">Speed & Scalability</h3>
           <p className="text-gray-600">
-            Utilize AI to generate detailed summaries and insights, helping you focus on critical issues quickly.
+            Scale your eDiscovery operations without the headaches. We make it simple to grow as your needs evolve.
           </p>
         </div>
       </div>
 
-      {/* Footer Section */}
-      <div className="text-center mt-16 py-4">
-        <p className="text-sm text-gray-600">
-          © 2025 eDiscoveryQC. All rights reserved. | <a href="/terms" className="text-blue-700">Terms of Service</a> | <a href="/privacy" className="text-blue-700">Privacy Policy</a>
+      {/* Call to Action Section */}
+      <div className="bg-blue-900 text-white py-12 text-center">
+        <h2 className="text-3xl font-bold mb-4">Ready to Experience the Future of eDiscovery?</h2>
+        <p className="text-lg mb-8">
+          Join the growing list of professionals who trust eDiscoveryQC to manage their eDiscovery needs. Start your free trial today!
         </p>
+        <a href="/signup" className="bg-white text-blue-900 hover:bg-gray-200 py-3 px-8 rounded-lg font-semibold transition-transform transform hover:scale-105">
+          Start Free Trial
+        </a>
       </div>
+
     </div>
   )
 }
