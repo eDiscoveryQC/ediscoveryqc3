@@ -1,0 +1,1 @@
+// Placeholder content for pages/tools/parent-child-checker.tsx

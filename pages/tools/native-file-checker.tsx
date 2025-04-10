@@ -1,0 +1,1 @@
+// Placeholder content for pages/tools/native-file-checker.tsx

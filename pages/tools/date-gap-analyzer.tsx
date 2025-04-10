@@ -1,0 +1,1 @@
+// Placeholder content for pages/tools/date-gap-analyzer.tsx
