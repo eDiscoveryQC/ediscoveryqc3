@@ -31,7 +31,7 @@ export default function Home() {
           {/* Logo in the header */}
           <a href="#" className="flex items-center">
             <img 
-              src="/ediscoveryqclogo.svg" 
+              src="/ediscoveryqclogo.svg" // Correct path for the logo file
               alt="eDiscoveryQC Logo" 
               className="h-36" // Increased size to 3 times bigger
             />
@@ -45,7 +45,7 @@ export default function Home() {
       </header>
 
       {/* Hero Section with focus on Login */}
-      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mt-24 fade-in">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mt-24">
         <div className="px-6 py-12">
           <h1 className="text-5xl font-extrabold text-blue-900 mb-6">
             Your Data Deserves the Best: Smarter eDiscovery QC Starts Here
