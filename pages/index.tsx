@@ -25,7 +25,7 @@ export default function Home() {
         </div>
       )}
 
-      {/* Navigation Menu with larger Logo */}
+      {/* Navigation Menu with Logo */}
       <header className="fixed top-0 left-0 w-full bg-white shadow-lg z-50">
         <div className="max-w-7xl mx-auto p-6 flex justify-between items-center">
           {/* Logo in the header */}
@@ -37,15 +37,15 @@ export default function Home() {
             />
           </a>
           <nav className="space-x-6">
-            <a href="#features" className="text-blue-700 hover:text-blue-900">Features</a>
-            <a href="#contact" className="text-blue-700 hover:text-blue-900">Contact</a>
+            <a href="#features" className="text-blue-700 hover:text-blue-900 transition">Features</a>
+            <a href="#contact" className="text-blue-700 hover:text-blue-900 transition">Contact</a>
             <a href="/signup" className="bg-blue-700 hover:bg-blue-800 text-white px-6 py-3 rounded-lg font-semibold transition">Start Free Trial</a>
           </nav>
         </div>
       </header>
 
       {/* Hero Section with focus on Login */}
-      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mt-24">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mt-24 fade-in">
         <div className="px-6 py-12">
           <h1 className="text-5xl font-extrabold text-blue-900 mb-6">
             Your Data Deserves the Best: Smarter eDiscovery QC Starts Here
@@ -152,7 +152,6 @@ export default function Home() {
           </div>
         </form>
       </div>
-
     </div>
   )
 }
