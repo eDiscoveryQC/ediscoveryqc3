@@ -23,8 +23,7 @@ export default function Home() {
             Already have an account? Sign in
           </a>
         </div>
-        <div className="mt-12 text-sm text-gray-500">
-          <p>Inspired by the simplicity of Everlaw and the power of Relativity</p>
+        <div className="mt-12 text-sm text-gray-500"
         </div>
       </div>
     </div>
