@@ -1,1 +1,0 @@
-// Placeholder content for pages/tools/dat-summary.tsx

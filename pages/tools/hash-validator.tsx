@@ -1,1 +1,0 @@
-// Placeholder content for pages/tools/hash-validator.tsx
