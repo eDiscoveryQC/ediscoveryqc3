@@ -6,13 +6,15 @@ const Header = () => {
     <header className="fixed top-0 left-0 w-full bg-white shadow-lg z-50">
       <div className="max-w-7xl mx-auto p-6 flex justify-between items-center">
         {/* Logo in the header */}
-        <a href="#" className="flex items-center">
-          <img 
-            src="/ediscoveryqclogo.svg" 
-            alt="eDiscoveryQC Logo" 
-            className="h-20"
-          />
-        </a>
+        <Link href="/" passHref>
+          <a className="flex items-center">
+            <img 
+              src="/ediscoveryqc.svg"  {/* This points to the logo in the public folder */}
+              alt="eDiscoveryQC Logo" 
+              className="h-20"  {/* Adjust the size of the logo */}
+            />
+          </a>
+        </Link>
         <nav className="space-x-6">
           {/* Menu Items */}
           <Link href="/" passHref>
