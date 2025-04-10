@@ -37,8 +37,8 @@ export default function Home() {
         </div>
       </header>
 
-      {/* Hero Section */}
-      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mt-24">
+      {/* Hero Section with updated background */}
+      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mt-24 bg-gradient-to-br from-blue-100 to-white p-12 rounded-lg shadow-lg">
         <div className="px-6 py-12">
           <h1 className="text-5xl font-extrabold text-blue-900 mb-6">
             Your Data Deserves the Best: Smarter eDiscovery QC Starts Here
@@ -56,14 +56,13 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Right Section - Image/Visual */}
-        <div className="px-6 py-12">
+        {/* Right Section - SVG Logo */}
+        <div className="px-6 py-12 flex justify-center items-center">
           <img 
-            src="/ediscoveryqclogo.png" 
+            src="/ediscoveryqc.svg" 
             alt="eDiscoveryQC Logo" 
-            className="mx-auto mb-6" 
-            width={480} 
-            height={240} 
+            className="mx-auto mb-6 max-w-xs" 
+            style={{maxWidth: '100%', height: 'auto'}}
           />
         </div>
       </div>
