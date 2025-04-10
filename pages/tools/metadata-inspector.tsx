@@ -1,0 +1,1 @@
+export default function Page() { return <div>tools/metadata-inspector.tsx content here</div>; }

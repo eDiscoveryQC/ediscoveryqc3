@@ -1,0 +1,1 @@
+export default function Page() { return <div>tools/parent-child-checker.tsx content here</div>; }

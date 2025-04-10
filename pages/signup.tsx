@@ -1,0 +1,1 @@
+export default function Page() { return <div>signup.tsx content here</div>; }

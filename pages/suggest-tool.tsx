@@ -1,0 +1,1 @@
+export default function Page() { return <div>suggest-tool.tsx content here</div>; }
