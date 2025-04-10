@@ -95,7 +95,7 @@ export default function Home() {
             </div>
             <div>
               <label className="block mb-1 text-sm font-medium text-gray-700">Message</label>
-              <textarea className="w-full border border-gray-300 p-3 rounded-md" rows="4" placeholder="Your Message"></textarea>
+              <textarea className="w-full border border-gray-300 p-3 rounded-md" rows={4} placeholder="Your Message"></textarea>
             </div>
             <button type="submit" className="bg-blue-700 hover:bg-blue-800 text-white py-3 px-8 rounded-lg font-semibold transition-transform transform hover:scale-105">
               Send Message
