@@ -19,7 +19,7 @@ export default function Home() {
       {showModal && (
         <div className="fixed top-0 left-0 w-full bg-blue-900 text-white py-3 text-center z-50">
           <p>
-            We’re still in development and will be launching soon! Stay tuned for exciting features.
+            🚧 We are still in development and will be launching soon! Stay tuned for exciting features.
             <button onClick={closeModal} className="ml-4 text-blue-200 underline">Close</button>
           </p>
         </div>
@@ -105,7 +105,7 @@ export default function Home() {
             </div>
             <div>
               <label className="block mb-1 text-sm font-medium text-gray-700">Message</label>
-              <textarea className="w-full border border-gray-300 p-3 rounded-md" rows={4} placeholder="Your Message"></textarea>
+              <textarea className="w-full border border-gray-300 p-3 rounded-md" rows={6} placeholder="Your Message"></textarea>
             </div>
             <button type="submit" className="bg-blue-700 hover:bg-blue-800 text-white py-3 px-8 rounded-lg font-semibold transition-transform transform hover:scale-105">
               Send Message
@@ -114,7 +114,7 @@ export default function Home() {
         </form>
       </div>
 
-      {/* Footer Section - Optional */}
+      {/* Optional Footer */}
       {/* <footer className="bg-blue-900 text-white py-6 text-center">
         <p>© 2025 eDiscoveryQC. All rights reserved.</p>
       </footer> */}
