@@ -37,7 +37,7 @@ export default function Home() {
             />
           </a>
           <nav className="space-x-6">
-            <a href="#features" className="text-blue-700 hover:text-blue-900 transition">Features</a>
+            <a href="#features" className="text-blue-700 hover:text-blue-900 transition">QC Tools</a>
             <a href="#contact" className="text-blue-700 hover:text-blue-900 transition">Contact</a>
             <a href="/signup" className="bg-blue-700 hover:bg-blue-800 text-white px-6 py-3 rounded-lg font-semibold transition">Start Free Trial</a>
             <a href="/login" className="text-blue-700 font-medium hover:underline transition-all duration-200">Sign In</a>
