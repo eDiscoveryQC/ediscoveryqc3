@@ -29,20 +29,14 @@ export default function Home() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         {/* Left Side - Hero Section */}
         <div className="text-center lg:text-left px-6 py-12">
-          {/* Inline SVG Logo */}
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 100 50"
-            className="mx-auto mb-6"
-            width="300"
-            height="150"
-            fill="#1E4268" // Change the color of the logo here
-          >
-            {/* Example of an SVG path, replace with your actual logo SVG path */}
-            <path
-              d="M10,10 L40,10 L40,40 L10,40 Z M50,10 L80,10 L80,40 L50,40 Z M90,10 L100,10 L100,40 L90,40 Z"
-            />
-          </svg>
+          {/* Logo - using <img> for proper rendering */}
+          <img 
+            src="/ediscoveryqclogo.png" 
+            alt="eDiscoveryQC Logo" 
+            className="mx-auto mb-6" 
+            width={480} 
+            height={240} 
+          />
           <h1 className="text-5xl font-extrabold text-blue-900 mb-6">
             Smarter eDiscovery Starts With Better QC
           </h1>
@@ -81,7 +75,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Features Section (Icons Removed) */}
+      {/* Features Section (Icons Removed, New Feature Added) */}
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 text-center py-12">
         <div className="bg-white p-8 rounded-lg shadow-lg transform transition-transform hover:scale-105 hover:shadow-2xl">
           <h3 className="text-2xl font-semibold text-blue-900 mb-4">Automated DAT File Validation</h3>
@@ -90,9 +84,9 @@ export default function Home() {
           </p>
         </div>
         <div className="bg-white p-8 rounded-lg shadow-lg transform transition-transform hover:scale-105 hover:shadow-2xl">
-          <h3 className="text-2xl font-semibold text-blue-900 mb-4">Parent-Child Relationship Checks</h3>
+          <h3 className="text-2xl font-semibold text-blue-900 mb-4">Smart Data Insights with AI</h3>
           <p className="text-gray-600">
-            Automatically verify parent-child relationships in your data to avoid errors in document review.
+            Use AI to gain actionable insights from your data, detecting anomalies and improving your review process.
           </p>
         </div>
         <div className="bg-white p-8 rounded-lg shadow-lg transform transition-transform hover:scale-105 hover:shadow-2xl">
