@@ -1,6 +1,5 @@
 // pages/index.tsx
 import Head from 'next/head'
-import Image from 'next/image'
 import { useState } from 'react'
 
 export default function Home() {
@@ -30,6 +29,7 @@ export default function Home() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         {/* Left Side - Hero Section */}
         <div className="text-center lg:text-left px-6 py-12">
+          <img src="/ediscoveryqclogo.png" alt="eDiscoveryQC Logo" className="mx-auto mb-6" width={120} height={60} />
           <h1 className="text-5xl font-extrabold text-blue-900 mb-6">
             Smarter eDiscovery Starts With Better QC
           </h1>
@@ -72,7 +72,7 @@ export default function Home() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 text-center py-12">
         <div className="bg-white p-8 rounded-lg shadow-lg transform transition-transform hover:scale-105 hover:shadow-2xl">
           <div className="mb-4">
-            <Image src="/dat-icon.png" alt="DAT Validation" width={40} height={40} />
+            <img src="/icons/dat-icon.png" alt="DAT Validation" className="w-10 h-10 mx-auto"/>
           </div>
           <h3 className="text-2xl font-semibold text-blue-900 mb-4">Automated DAT File Validation</h3>
           <p className="text-gray-600">
@@ -81,7 +81,7 @@ export default function Home() {
         </div>
         <div className="bg-white p-8 rounded-lg shadow-lg transform transition-transform hover:scale-105 hover:shadow-2xl">
           <div className="mb-4">
-            <Image src="/parent-child-icon.png" alt="Parent-Child Check" width={40} height={40} />
+            <img src="/icons/parent-child-icon.png" alt="Parent-Child Check" className="w-10 h-10 mx-auto"/>
           </div>
           <h3 className="text-2xl font-semibold text-blue-900 mb-4">Parent-Child Relationship Checks</h3>
           <p className="text-gray-600">
@@ -90,7 +90,7 @@ export default function Home() {
         </div>
         <div className="bg-white p-8 rounded-lg shadow-lg transform transition-transform hover:scale-105 hover:shadow-2xl">
           <div className="mb-4">
-            <Image src="/ai-icon.png" alt="AI Insights" width={40} height={40} />
+            <img src="/icons/ai-icon.png" alt="AI Insights" className="w-10 h-10 mx-auto"/>
           </div>
           <h3 className="text-2xl font-semibold text-blue-900 mb-4">AI-Powered Summaries</h3>
           <p className="text-gray-600">
