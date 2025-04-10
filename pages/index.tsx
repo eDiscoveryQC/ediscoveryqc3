@@ -38,10 +38,10 @@ export default function Home() {
             height="150"
             fill="#1E4268" // Change the color of the logo here
           >
+            {/* Example of an SVG path, replace with your actual logo SVG path */}
             <path
               d="M10,10 L40,10 L40,40 L10,40 Z M50,10 L80,10 L80,40 L50,40 Z M90,10 L100,10 L100,40 L90,40 Z"
             />
-            {/* Example SVG path, replace with actual logo SVG path */}
           </svg>
           <h1 className="text-5xl font-extrabold text-blue-900 mb-6">
             Smarter eDiscovery Starts With Better QC
@@ -82,19 +82,4 @@ export default function Home() {
       </div>
 
       {/* Features Section (Icons Removed) */}
-      <div className="max-w-7xl mx-auto text-center py-12">
-        <h3 className="text-2xl font-semibold text-blue-900 mb-4">Our Key Features</h3>
-        <p className="text-gray-600">
-          Automated workflows, AI-driven insights, and seamless quality control for legal teams and compliance specialists.
-        </p>
-      </div>
-
-      {/* Footer Section */}
-      <div className="text-center mt-16 py-4">
-        <p className="text-sm text-gray-600">
-          © 2025 eDiscoveryQC. All rights reserved. | <a href="/terms" className="text-blue-700">Terms of Service</a> | <a href="/privacy" className="text-blue-700">Privacy Policy</a>
-        </p>
-      </div>
-    </div>
-  )
-}
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 text-center py-12
