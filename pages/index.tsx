@@ -82,4 +82,33 @@ export default function Home() {
       </div>
 
       {/* Features Section (Icons Removed) */}
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 text-center py-12
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 text-center py-12">
+        <div className="bg-white p-8 rounded-lg shadow-lg transform transition-transform hover:scale-105 hover:shadow-2xl">
+          <h3 className="text-2xl font-semibold text-blue-900 mb-4">Automated DAT File Validation</h3>
+          <p className="text-gray-600">
+            Easily validate DAT files for integrity, ensuring all metadata, hash values, and file extensions are correct.
+          </p>
+        </div>
+        <div className="bg-white p-8 rounded-lg shadow-lg transform transition-transform hover:scale-105 hover:shadow-2xl">
+          <h3 className="text-2xl font-semibold text-blue-900 mb-4">Parent-Child Relationship Checks</h3>
+          <p className="text-gray-600">
+            Automatically verify parent-child relationships in your data to avoid errors in document review.
+          </p>
+        </div>
+        <div className="bg-white p-8 rounded-lg shadow-lg transform transition-transform hover:scale-105 hover:shadow-2xl">
+          <h3 className="text-2xl font-semibold text-blue-900 mb-4">AI-Powered Summaries</h3>
+          <p className="text-gray-600">
+            Utilize AI to generate detailed summaries and insights, helping you focus on critical issues quickly.
+          </p>
+        </div>
+      </div>
+
+      {/* Footer Section */}
+      <div className="text-center mt-16 py-4">
+        <p className="text-sm text-gray-600">
+          © 2025 eDiscoveryQC. All rights reserved. | <a href="/terms" className="text-blue-700">Terms of Service</a> | <a href="/privacy" className="text-blue-700">Privacy Policy</a>
+        </p>
+      </div>
+    </div>
+  )
+}
