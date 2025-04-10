@@ -9,9 +9,9 @@ const Header = () => {
         <Link href="/" passHref>
           <a className="flex items-center">
             <img 
-              src="/ediscoveryqc.svg"  {/* This points to the logo in the public folder */}
+              src="/ediscoveryqc.svg"  // This points to the logo in the public folder
               alt="eDiscoveryQC Logo" 
-              className="h-20"  {/* Adjust the size of the logo */}
+              className="h-20"  // Adjust the size of the logo
             />
           </a>
         </Link>
