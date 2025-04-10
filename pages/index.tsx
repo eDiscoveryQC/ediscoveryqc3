@@ -23,8 +23,6 @@ export default function Home() {
             Already have an account? Sign in
           </a>
         </div>
-        <div className="mt-12 text-sm text-gray-500"
-        </div>
       </div>
     </div>
   )
