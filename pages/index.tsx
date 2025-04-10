@@ -1,33 +1,32 @@
-
-import Link from 'next/link';
+// pages/index.tsx
+import Head from 'next/head'
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gradient-to-br from-white via-blue-50 to-blue-100 p-10 text-center">
-      <div className="max-w-4xl mx-auto space-y-8">
-        <img src="/logo.png" alt="eDiscoveryQC Logo" className="w-24 mx-auto mb-4" />
-        <h1 className="text-4xl font-bold text-blue-900">Smarter eDiscovery Starts with Better QC</h1>
-        <p className="text-lg text-gray-700 max-w-xl mx-auto">
-          eDiscoveryQC is the first QC-centric SaaS platform built exclusively for legal teams, litigation support, and document review workflows.
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-white px-4">
+      <Head>
+        <title>eDiscoveryQC – Smarter eDiscovery QC</title>
+      </Head>
+      <div className="max-w-4xl w-full text-center py-16">
+        <h1 className="text-5xl font-extrabold text-blue-900 mb-6 leading-tight">
+          Smarter eDiscovery <br /> Starts With Better QC
+        </h1>
+        <p className="text-lg text-gray-700 mb-8">
+          Built for legal teams, litigation support, and document review specialists.
+          Start your 7-day free trial and experience a better way to quality-check your data.
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8 text-left text-gray-700">
-          <div className="bg-white rounded-xl shadow p-5 border">
-            <h2 className="text-xl font-semibold text-blue-800 mb-2">📤 Upload Files</h2>
-            <p>Drag and drop your DAT files to begin QC validation.</p>
-          </div>
-          <div className="bg-white rounded-xl shadow p-5 border">
-            <h2 className="text-xl font-semibold text-blue-800 mb-2">🔍 Run QC Tools</h2>
-            <p>Select from a suite of tools to run consistency, metadata, and file extension checks.</p>
-          </div>
-          <div className="bg-white rounded-xl shadow p-5 border">
-            <h2 className="text-xl font-semibold text-blue-800 mb-2">📄 Export Reports</h2>
-            <p>Download summary reports for client review or internal audit.</p>
-          </div>
+        <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
+          <a href="/signup" className="bg-blue-700 hover:bg-blue-800 text-white px-6 py-3 rounded-xl font-semibold transition">
+            Start Free Trial
+          </a>
+          <a href="/login" className="text-blue-700 font-medium hover:underline">
+            Already have an account? Sign in
+          </a>
         </div>
-        <Link href="/dashboard" className="inline-block bg-blue-600 text-white px-8 py-3 rounded-full text-lg shadow hover:bg-blue-700 transition">
-          Launch Dashboard
-        </Link>
+        <div className="mt-12 text-sm text-gray-500">
+          <p>Inspired by the simplicity of Everlaw and the power of Relativity</p>
+        </div>
       </div>
-    </main>
-  );
+    </div>
+  )
 }
