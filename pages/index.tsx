@@ -33,11 +33,13 @@ export default function Home() {
             <img 
               src="/ediscoveryqclogo.svg" 
               alt="eDiscoveryQC Logo" 
-              className="h-20" // Increased size for better visibility
+              className="h-20"
             />
           </a>
           <nav className="space-x-6">
-            <a href="#features" className="text-blue-700 hover:text-blue-900 transition">QC Tools</a>
+            <a href="#" className="text-blue-700 hover:text-blue-900 transition">Home</a>
+            <a href="#qc-tools" className="text-blue-700 hover:text-blue-900 transition">QC Tools</a>
+            <a href="#pricing" className="text-blue-700 hover:text-blue-900 transition">Pricing</a>
             <a href="#contact" className="text-blue-700 hover:text-blue-900 transition">Contact</a>
             <a href="/signup" className="bg-blue-700 hover:bg-blue-800 text-white px-6 py-3 rounded-lg font-semibold transition">Start Free Trial</a>
             <a href="/login" className="text-blue-700 font-medium hover:underline transition-all duration-200">Sign In</a>
@@ -59,13 +61,13 @@ export default function Home() {
             <a href="/signup" className="bg-blue-700 hover:bg-blue-800 text-white py-3 px-8 rounded-lg font-semibold transition-transform transform hover:scale-105">
               Start Free Trial
             </a>
-            <a href="/login" className="text-blue-700 font-medium hover:underline transition-all duration-200">
-              Already have an account? Sign in
+            <a href="#qc-tools" className="text-blue-700 font-medium hover:underline transition-all duration-200">
+              Learn More
             </a>
           </div>
         </div>
 
-        {/* Right Side - Login Form */}
+        {/* Right Side - Sign In Form */}
         <div className="bg-white p-8 rounded-lg shadow-lg text-center max-w-md w-full mx-auto border border-blue-100">
           <h2 className="text-2xl font-bold text-blue-900 mb-6">Sign in to eDiscoveryQC</h2>
           <form className="space-y-4 text-left">
@@ -87,8 +89,8 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Features Section */}
-      <div id="features" className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 text-center py-12">
+      {/* QC Tools Section */}
+      <div id="qc-tools" className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 text-center py-12">
         <div className="bg-white p-8 rounded-lg shadow-lg transform transition-transform hover:scale-105 hover:shadow-2xl">
           <h3 className="text-2xl font-semibold text-blue-900 mb-4">Automated DAT File Validation</h3>
           <p className="text-gray-600">
@@ -106,6 +108,29 @@ export default function Home() {
           <p className="text-gray-600">
             Automatically verify parent-child relationships in your data to avoid errors in document review.
           </p>
+        </div>
+      </div>
+
+      {/* Pricing Section */}
+      <div id="pricing" className="bg-blue-50 py-12">
+        <div className="max-w-7xl mx-auto text-center">
+          <h2 className="text-3xl font-semibold text-blue-900 mb-6">Affordable Pricing for Every Team</h2>
+          <p className="text-lg text-gray-700 mb-8">
+            Choose the right plan that fits your team's needs. Start with a **7-day free trial** to experience eDiscoveryQC.
+          </p>
+          <div className="flex justify-center gap-6">
+            <div className="bg-white p-8 rounded-lg shadow-lg w-64">
+              <h3 className="text-xl font-semibold text-blue-900 mb-4">Free Trial</h3>
+              <p className="text-gray-600">Access all features for 7 days—no credit card required.</p>
+              <a href="/signup" className="block mt-4 text-center text-blue-700 hover:text-blue-900 font-semibold">Start Free Trial</a>
+            </div>
+            <div className="bg-white p-8 rounded-lg shadow-lg w-64">
+              <h3 className="text-xl font-semibold text-blue-900 mb-4">Pro Plan</h3>
+              <p className="text-gray-600">$49/month</p>
+              <p className="text-gray-600 mt-2">For larger teams with advanced QC tools and priority support.</p>
+              <a href="/signup" className="block mt-4 text-center text-blue-700 hover:text-blue-900 font-semibold">Get Started</a>
+            </div>
+          </div>
         </div>
       </div>
 
