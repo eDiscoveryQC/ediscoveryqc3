@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link' // Ensure this is correctly imported
 
 export default function Login() {
   return (
@@ -16,7 +17,10 @@ export default function Login() {
           </button>
         </form>
         <p className="mt-4 text-sm text-gray-600">
-          Don't have an account? <Link href="/signup" className="text-blue-700 hover:underline">Sign up</Link>
+          Don't have an account? 
+          <Link href="/signup">
+            <span className="text-blue-700 hover:underline">Sign up</span> {/* Removed <a> */}
+          </Link>
         </p>
       </div>
     </div>
