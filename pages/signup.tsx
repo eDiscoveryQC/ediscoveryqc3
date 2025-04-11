@@ -23,7 +23,7 @@ export default function Signup() {
         <p className="mt-4 text-sm text-gray-600">
           Already have an account? 
           <Link href="/login">
-            <span className="text-blue-700 hover:underline">Sign in</span>
+            <a className="text-blue-700 hover:underline">Sign in</a>
           </Link>
         </p>
       </div>
