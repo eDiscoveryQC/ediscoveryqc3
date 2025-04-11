@@ -24,11 +24,10 @@ const QCTools = () => {
             <Link href="/">
               <a className="text-blue-700 hover:text-blue-900 transition">Home</a>
             </Link>
-            {/* Update link to QC Tools page */}
             <Link href="/qc-tools">
               <a className="text-blue-700 hover:text-blue-900 transition">QC Tools</a>
             </Link>
-            <Link href="#pricing">
+            <Link href="/pricing">
               <a className="text-blue-700 hover:text-blue-900 transition">Pricing</a>
             </Link>
             <Link href="#contact">
@@ -50,27 +49,29 @@ const QCTools = () => {
         <p className="text-lg text-gray-700 mb-8">
           Our suite of QC tools is designed to automate your eDiscovery workflows, ensuring **data integrity**, **compliance**, and **efficiency** before your data enters the review stage.
         </p>
-        <a href="/signup" className="bg-blue-700 hover:bg-blue-800 text-white py-3 px-8 rounded-lg font-semibold transition-transform transform hover:scale-105">
-          Start Free Trial
-        </a>
+        <Link href="/signup">
+          <a className="bg-blue-700 hover:bg-blue-800 text-white py-3 px-8 rounded-lg font-semibold transition-transform transform hover:scale-105">
+            Start Free Trial
+          </a>
+        </Link>
       </div>
 
       {/* Preview of QC Tools */}
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 text-center py-12">
         {/* Automated Hash & Metadata Validation */}
-        <div className="bg-white p-8 rounded-lg shadow-lg">
+        <div className="bg-white p-8 rounded-lg shadow-lg transform transition-transform hover:scale-105 hover:shadow-2xl">
           <h3 className="text-2xl font-semibold text-blue-900 mb-4">Automated Hash & Metadata Validation</h3>
           <p className="text-gray-600">Ensure the integrity of your data with automated checks for hash values and metadata consistency.</p>
         </div>
 
         {/* Parent-Child Relationship Validation */}
-        <div className="bg-white p-8 rounded-lg shadow-lg">
+        <div className="bg-white p-8 rounded-lg shadow-lg transform transition-transform hover:scale-105 hover:shadow-2xl">
           <h3 className="text-2xl font-semibold text-blue-900 mb-4">Parent-Child Relationship Validation</h3>
           <p className="text-gray-600">Automatically verify parent-child relationships to ensure all documents are properly associated.</p>
         </div>
 
         {/* AI-Powered Insights */}
-        <div className="bg-white p-8 rounded-lg shadow-lg">
+        <div className="bg-white p-8 rounded-lg shadow-lg transform transition-transform hover:scale-105 hover:shadow-2xl">
           <h3 className="text-2xl font-semibold text-blue-900 mb-4">AI-Powered Insights</h3>
           <p className="text-gray-600">Leverage AI to quickly identify key issues in large datasets and gain actionable insights.</p>
         </div>
