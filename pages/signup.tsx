@@ -1,5 +1,5 @@
-// pages/signup.tsx
 import Head from 'next/head'
+import Link from 'next/link'
 
 export default function Signup() {
   return (
@@ -21,7 +21,10 @@ export default function Signup() {
           You’ll get full access to all tools for 7 days. No credit card required.
         </p>
         <p className="mt-4 text-sm text-gray-600">
-          Already have an account? <a href="/login" className="text-blue-700 hover:underline">Sign in</a>
+          Already have an account? 
+          <Link href="/login">
+            <a className="text-blue-700 hover:underline">Sign in</a>
+          </Link>
         </p>
       </div>
     </div>
