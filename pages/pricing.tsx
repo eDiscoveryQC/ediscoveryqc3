@@ -58,3 +58,25 @@ const Pricing = () => {
             <a className="block mt-4 text-center text-blue-700 hover:text-blue-900 font-semibold">Start Free Trial</a>
           </Link>
         </div>
+        <div className="bg-white p-8 rounded-lg shadow-lg w-full transform transition-all hover:scale-105 hover:shadow-2xl">
+          <h3 className="text-xl font-semibold text-blue-900 mb-4">Pro Plan</h3>
+          <p className="text-gray-600 text-lg font-semibold">$49/month</p>
+          <p className="text-gray-600 mt-2">For larger teams needing advanced QC tools and priority support. Maximize efficiency and accuracy with our professional-grade features.</p>
+          <Link href="/signup">
+            <a className="block mt-4 text-center text-blue-700 hover:text-blue-900 font-semibold">Get Started</a>
+          </Link>
+        </div>
+        <div className="bg-white p-8 rounded-lg shadow-lg w-full transform transition-all hover:scale-105 hover:shadow-2xl">
+          <h3 className="text-xl font-semibold text-blue-900 mb-4">Enterprise Plan</h3>
+          <p className="text-gray-600 text-lg font-semibold">Custom Pricing</p>
+          <p className="text-gray-600 mt-2">Designed for large enterprises with custom needs. Includes dedicated support, advanced integrations, and scalable solutions.</p>
+          <Link href="/contact">
+            <a className="block mt-4 text-center text-blue-700 hover:text-blue-900 font-semibold">Contact Us for More Info</a>
+          </Link>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default Pricing
