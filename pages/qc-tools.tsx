@@ -20,24 +20,12 @@ const QCTools = () => {
             />
           </Link>
           <nav className="space-x-6">
-            <Link href="/">
-              <a className="text-blue-700 hover:text-blue-900 transition">Home</a>
-            </Link>
-            <Link href="/qc-tools">
-              <a className="text-blue-700 hover:text-blue-900 transition">QC Tools</a>
-            </Link>
-            <Link href="/pricing">
-              <a className="text-blue-700 hover:text-blue-900 transition">Pricing</a>
-            </Link>
-            <Link href="#contact">
-              <a className="text-blue-700 hover:text-blue-900 transition">Contact</a>
-            </Link>
-            <Link href="/signup">
-              <a className="bg-blue-700 hover:bg-blue-800 text-white px-6 py-3 rounded-lg font-semibold transition">Start Free Trial</a>
-            </Link>
-            <Link href="/login">
-              <a className="text-blue-700 font-medium hover:underline transition-all duration-200">Sign In</a>
-            </Link>
+            <Link href="/" className="text-blue-700 hover:text-blue-900 transition">Home</Link>
+            <Link href="/qc-tools" className="text-blue-700 hover:text-blue-900 transition">QC Tools</Link>
+            <Link href="/pricing" className="text-blue-700 hover:text-blue-900 transition">Pricing</Link>
+            <Link href="#contact" className="text-blue-700 hover:text-blue-900 transition">Contact</Link>
+            <Link href="/signup" className="bg-blue-700 hover:bg-blue-800 text-white px-6 py-3 rounded-lg font-semibold transition">Start Free Trial</Link>
+            <Link href="/login" className="text-blue-700 font-medium hover:underline transition-all duration-200">Sign In</Link>
           </nav>
         </div>
       </header>
