@@ -95,4 +95,55 @@ export default function Home() {
               <label className="block mb-1 text-sm font-medium text-gray-700">Password</label>
               <input type="password" className="w-full border border-gray-300 p-3 rounded-md" placeholder="••••••••" />
             </div>
-            <button type="submit" className="w-full bg-blue-700 hover:bg-blue-800 text
+            <button type="submit" className="w-full bg-blue-700 hover:bg-blue-800 text-white py-3 rounded-md font-medium transform transition-transform hover:scale-105">
+              Sign In
+            </button>
+          </form>
+          <p className="mt-6 text-sm text-gray-600">
+            Don’t have an account? <Link href="/signup"><a className="text-blue-700 hover:underline font-medium">Start your 7-day free trial</a></Link>
+          </p>
+        </div>
+      </div>
+
+      {/* QC Tools Section */}
+      <div id="qc-tools" className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 text-center py-12">
+        <div className="bg-white p-8 rounded-lg shadow-lg">
+          <h3 className="text-2xl font-semibold text-blue-900 mb-4">Automated DAT File Validation</h3>
+          <p className="text-gray-600">Easily validate DAT files for integrity, ensuring all metadata, hash values, and file extensions are correct.</p>
+        </div>
+        <div className="bg-white p-8 rounded-lg shadow-lg">
+          <h3 className="text-2xl font-semibold text-blue-900 mb-4">AI-Driven Data Insights</h3>
+          <p className="text-gray-600">Gain powerful insights from your data with AI, optimizing review processes and identifying anomalies.</p>
+        </div>
+        <div className="bg-white p-8 rounded-lg shadow-lg">
+          <h3 className="text-2xl font-semibold text-blue-900 mb-4">Parent-Child Relationship Checks</h3>
+          <p className="text-gray-600">Automatically verify parent-child relationships to ensure all documents are properly associated.</p>
+        </div>
+      </div>
+
+      {/* Contact Form Section */}
+      <div id="contact" className="max-w-7xl mx-auto py-12">
+        <h2 className="text-3xl font-semibold text-blue-900 text-center mb-8">Contact Us</h2>
+        <form className="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-lg">
+          <div className="space-y-4">
+            <div>
+              <label className="block mb-1 text-sm font-medium text-gray-700">Full Name</label>
+              <input type="text" className="w-full border border-gray-300 p-3 rounded-md" placeholder="Your Name" />
+            </div>
+            <div>
+              <label className="block mb-1 text-sm font-medium text-gray-700">Email Address</label>
+              <input type="email" className="w-full border border-gray-300 p-3 rounded-md" placeholder="you@example.com" />
+            </div>
+            <div>
+              <label className="block mb-1 text-sm font-medium text-gray-700">Message</label>
+              <textarea className="w-full border border-gray-300 p-3 rounded-md" rows={6} placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" className="bg-blue-700 hover:bg-blue-800 text-white py-3 px-8 rounded-lg font-semibold transition-transform transform hover:scale-105">
+              Send Message
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  )
+}
