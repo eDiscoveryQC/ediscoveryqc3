@@ -36,10 +36,8 @@ const QCTools = () => {
         <p className="text-lg text-gray-700 mb-8">
           Automate your QC checks, ensure data integrity, and streamline the eDiscovery process before data enters the review stage.
         </p>
-        <Link href="/signup">
-          <a className="bg-blue-700 hover:bg-blue-800 text-white py-3 px-8 rounded-lg font-semibold transition-transform transform hover:scale-105 duration-300">
-            Start Free Trial
-          </a>
+        <Link href="/signup" className="bg-blue-700 hover:bg-blue-800 text-white py-3 px-8 rounded-lg font-semibold transition-transform transform hover:scale-105 duration-300">
+          Start Free Trial
         </Link>
       </div>
 
