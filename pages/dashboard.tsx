@@ -73,11 +73,11 @@ export default function Dashboard() {
               {filteredTools.map(({ name, icon, path }) => (
                 <div key={name} className="p-6 bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all">
                   <Link href={`/tools/${path}`}>
-                    <a className="text-center block">
+                    <div className="text-center block">
                       <div className="text-4xl mb-2">{icon}</div>
                       <h2 className="text-lg font-semibold text-blue-800">{name}</h2>
                       <p className="text-sm text-gray-600 mt-1">Open tool</p>
-                    </a>
+                    </div>
                   </Link>
                 </div>
               ))}
