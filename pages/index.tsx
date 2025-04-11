@@ -89,6 +89,38 @@ export default function Home() {
         </div>
       </div>
 
+      {/* QC-Focused Section */}
+      <div className="max-w-7xl mx-auto text-center py-12 mt-24">
+        <h2 className="text-4xl font-extrabold text-blue-900 mb-6">QC-Focused Tool for eDiscovery Professionals</h2>
+        <p className="text-lg text-gray-700 mb-8">
+          eDiscoveryQC specializes in QC, ensuring data integrity and compliance at every stage, before and after review. Unlike review platforms, which focus primarily on document review, eDiscoveryQC ensures that the data is validated and verified throughout the entire process.
+        </p>
+
+        {/* Pre-Review QC Automation */}
+        <div className="flex justify-center items-center gap-12 mb-12">
+          <div className="flex-1">
+            <h3 className="text-2xl font-semibold text-blue-900 mb-4">Pre-Review QC Automation</h3>
+            <p className="text-gray-600">
+              eDiscoveryQC helps users automatically check for common QC issues like missing files, corrupt data, and metadata mismatches before they start their review, ensuring that only clean data enters the review workflow.
+            </p>
+          </div>
+          <div className="flex-1">
+            <h3 className="text-2xl font-semibold text-blue-900 mb-4">Post-Review QC Automation</h3>
+            <p className="text-gray-600">
+              After review, eDiscoveryQC provides final QC checks, such as production validation and metadata re-checks, ensuring that the data is compliant and ready for production, preventing errors and rework.
+            </p>
+          </div>
+        </div>
+
+        {/* Increase Trust and Confidence */}
+        <div className="max-w-4xl mx-auto">
+          <h3 className="text-2xl font-semibold text-blue-900 mb-4">Increase Trust and Confidence</h3>
+          <p className="text-gray-600">
+            By automating QC checks both before and after review, eDiscoveryQC ensures that data is ready for litigation, increasing the confidence of legal teams in the data they produce and the results of their review process. Legal teams can defend their work confidently, knowing that the data has been checked and validated at every step.
+          </p>
+        </div>
+      </div>
+
       {/* QC Tools Section */}
       <div id="qc-tools" className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 text-center py-12">
         <div className="bg-white p-8 rounded-lg shadow-lg">
