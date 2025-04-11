@@ -13,32 +13,30 @@ const QCTools = () => {
         <div className="max-w-7xl mx-auto p-6 flex justify-between items-center">
           {/* Logo in the header */}
           <Link href="/">
-            <a className="flex items-center">
-              <img 
-                src="/ediscoveryqclogo.svg" 
-                alt="eDiscoveryQC Logo" 
-                className="h-20"
-              />
-            </a>
+            <img 
+              src="/ediscoveryqclogo.svg" 
+              alt="eDiscoveryQC Logo" 
+              className="h-20"
+            />
           </Link>
           <nav className="space-x-6">
             <Link href="/">
-              <a className="text-blue-700 hover:text-blue-900 transition">Home</a>
+              <span className="text-blue-700 hover:text-blue-900 transition">Home</span>
             </Link>
             <Link href="/qc-tools">
-              <a className="text-blue-700 hover:text-blue-900 transition">QC Tools</a>
+              <span className="text-blue-700 hover:text-blue-900 transition">QC Tools</span>
             </Link>
             <Link href="/pricing">
-              <a className="text-blue-700 hover:text-blue-900 transition">Pricing</a>
+              <span className="text-blue-700 hover:text-blue-900 transition">Pricing</span>
             </Link>
             <Link href="#contact">
-              <a className="text-blue-700 hover:text-blue-900 transition">Contact</a>
+              <span className="text-blue-700 hover:text-blue-900 transition">Contact</span>
             </Link>
             <Link href="/signup">
-              <a className="bg-blue-700 hover:bg-blue-800 text-white px-6 py-3 rounded-lg font-semibold transition">Start Free Trial</a>
+              <span className="bg-blue-700 hover:bg-blue-800 text-white px-6 py-3 rounded-lg font-semibold transition">Start Free Trial</span>
             </Link>
             <Link href="/login">
-              <a className="text-blue-700 font-medium hover:underline transition-all duration-200">Sign In</a>
+              <span className="text-blue-700 font-medium hover:underline transition-all duration-200">Sign In</span>
             </Link>
           </nav>
         </div>
@@ -51,9 +49,9 @@ const QCTools = () => {
           Automate your QC checks, ensure data integrity, and streamline the eDiscovery process before data enters the review stage.
         </p>
         <Link href="/signup">
-          <a className="bg-blue-700 hover:bg-blue-800 text-white py-3 px-8 rounded-lg font-semibold transition-transform transform hover:scale-105">
+          <span className="bg-blue-700 hover:bg-blue-800 text-white py-3 px-8 rounded-lg font-semibold transition-transform transform hover:scale-105">
             Start Free Trial
-          </a>
+          </span>
         </Link>
       </div>
 
