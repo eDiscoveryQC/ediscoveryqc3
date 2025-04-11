@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link' // Ensure Link is correctly imported
 
 export default function Signup() {
   return (
@@ -20,7 +21,10 @@ export default function Signup() {
           You’ll get full access to all tools for 7 days. No credit card required.
         </p>
         <p className="mt-4 text-sm text-gray-600">
-          Already have an account? <Link href="/login" className="text-blue-700 hover:underline">Sign in</Link>
+          Already have an account? 
+          <Link href="/login">
+            <span className="text-blue-700 hover:underline">Sign in</span> {/* Removed <a> tag */}
+          </Link>
         </p>
       </div>
     </div>
