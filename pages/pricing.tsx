@@ -13,32 +13,30 @@ const Pricing = () => {
         <div className="max-w-7xl mx-auto p-6 flex justify-between items-center">
           {/* Logo in the header */}
           <Link href="/">
-            <a className="flex items-center">
-              <img 
-                src="/ediscoveryqclogo.svg" 
-                alt="eDiscoveryQC Logo" 
-                className="h-20"
-              />
-            </a>
+            <img 
+              src="/ediscoveryqclogo.svg" 
+              alt="eDiscoveryQC Logo" 
+              className="h-20"
+            />
           </Link>
           <nav className="space-x-6 hidden md:flex">
             <Link href="/">
-              <a className="text-blue-700 hover:text-blue-900 transition">Home</a>
+              <span className="text-blue-700 hover:text-blue-900 transition">Home</span>
             </Link>
             <Link href="/qc-tools">
-              <a className="text-blue-700 hover:text-blue-900 transition">QC Tools</a>
+              <span className="text-blue-700 hover:text-blue-900 transition">QC Tools</span>
             </Link>
             <Link href="/pricing">
-              <a className="text-blue-700 hover:text-blue-900 transition">Pricing</a>
+              <span className="text-blue-700 hover:text-blue-900 transition">Pricing</span>
             </Link>
             <Link href="#contact">
-              <a className="text-blue-700 hover:text-blue-900 transition">Contact</a>
+              <span className="text-blue-700 hover:text-blue-900 transition">Contact</span>
             </Link>
             <Link href="/signup">
-              <a className="bg-blue-700 hover:bg-blue-800 text-white px-6 py-3 rounded-lg font-semibold transition">Start Free Trial</a>
+              <span className="bg-blue-700 hover:bg-blue-800 text-white px-6 py-3 rounded-lg font-semibold transition">Start Free Trial</span>
             </Link>
             <Link href="/login">
-              <a className="text-blue-700 font-medium hover:underline transition-all duration-200">Sign In</a>
+              <span className="text-blue-700 font-medium hover:underline transition-all duration-200">Sign In</span>
             </Link>
           </nav>
           {/* Mobile Menu Button */}
@@ -57,9 +55,9 @@ const Pricing = () => {
           Choose the right plan that fits your team's needs. Start with a **7-day free trial** to experience eDiscoveryQC with no commitment.
         </p>
         <Link href="/signup">
-          <a className="bg-blue-700 hover:bg-blue-800 text-white py-3 px-8 rounded-lg font-semibold transition-transform transform hover:scale-105">
+          <span className="bg-blue-700 hover:bg-blue-800 text-white py-3 px-8 rounded-lg font-semibold transition-transform transform hover:scale-105">
             Start Free Trial
-          </a>
+          </span>
         </Link>
       </div>
 
@@ -69,7 +67,7 @@ const Pricing = () => {
           <h3 className="text-xl font-semibold text-blue-900 mb-4">Free Trial</h3>
           <p className="text-gray-600 mb-4">Access all features for 7 days—no credit card required. Get a taste of the eDiscoveryQC experience!</p>
           <Link href="/signup">
-            <a className="block mt-4 text-center text-blue-700 hover:text-blue-900 font-semibold">Start Free Trial</a>
+            <span className="block mt-4 text-center text-blue-700 hover:text-blue-900 font-semibold">Start Free Trial</span>
           </Link>
         </div>
         <div className="bg-white p-8 rounded-lg shadow-lg w-full transform transition-all hover:scale-105 hover:shadow-2xl">
@@ -77,7 +75,7 @@ const Pricing = () => {
           <p className="text-gray-600 text-lg font-semibold">$49/month</p>
           <p className="text-gray-600 mt-2">For larger teams needing advanced QC tools and priority support. Maximize efficiency and accuracy with our professional-grade features.</p>
           <Link href="/signup">
-            <a className="block mt-4 text-center text-blue-700 hover:text-blue-900 font-semibold">Get Started</a>
+            <span className="block mt-4 text-center text-blue-700 hover:text-blue-900 font-semibold">Get Started</span>
           </Link>
         </div>
         <div className="bg-white p-8 rounded-lg shadow-lg w-full transform transition-all hover:scale-105 hover:shadow-2xl">
@@ -85,11 +83,10 @@ const Pricing = () => {
           <p className="text-gray-600 text-lg font-semibold">Custom Pricing</p>
           <p className="text-gray-600 mt-2">Designed for large enterprises with custom needs. Includes dedicated support, advanced integrations, and scalable solutions.</p>
           <Link href="/contact">
-            <a className="block mt-4 text-center text-blue-700 hover:text-blue-900 font-semibold">Contact Us for More Info</a>
+            <span className="block mt-4 text-center text-blue-700 hover:text-blue-900 font-semibold">Contact Us for More Info</span>
           </Link>
         </div>
       </div>
-
     </div>
   )
 }
