@@ -44,7 +44,9 @@ export default function Home() {
             <Link href="/qc-tools">
               <a className="text-blue-700 hover:text-blue-900 transition">QC Tools</a>
             </Link>
-            {/* Removed pricing link from here */}
+            <Link href="/pricing">
+              <a className="text-blue-700 hover:text-blue-900 transition">Pricing</a>
+            </Link>
             <Link href="#contact">
               <a className="text-blue-700 hover:text-blue-900 transition">Contact</a>
             </Link>
