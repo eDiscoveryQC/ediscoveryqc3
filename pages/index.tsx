@@ -41,13 +41,10 @@ export default function Home() {
             <Link href="/">
               <a className="text-blue-700 hover:text-blue-900 transition">Home</a>
             </Link>
-            {/* Update link to QC Tools page */}
             <Link href="/qc-tools">
               <a className="text-blue-700 hover:text-blue-900 transition">QC Tools</a>
             </Link>
-            <Link href="#pricing">
-              <a className="text-blue-700 hover:text-blue-900 transition">Pricing</a>
-            </Link>
+            {/* Removed pricing link from here */}
             <Link href="#contact">
               <a className="text-blue-700 hover:text-blue-900 transition">Contact</a>
             </Link>
@@ -101,29 +98,6 @@ export default function Home() {
           <p className="mt-6 text-sm text-gray-600">
             Don’t have an account? <Link href="/signup"><a className="text-blue-700 hover:underline font-medium">Start your 7-day free trial</a></Link>
           </p>
-        </div>
-      </div>
-
-      {/* Pricing Section */}
-      <div id="pricing" className="bg-blue-50 py-12">
-        <div className="max-w-7xl mx-auto text-center">
-          <h2 className="text-3xl font-semibold text-blue-900 mb-6">Affordable Pricing for Every Team</h2>
-          <p className="text-lg text-gray-700 mb-8">
-            Choose the right plan that fits your team's needs. Start with a **7-day free trial** to experience eDiscoveryQC.
-          </p>
-          <div className="flex justify-center gap-6">
-            <div className="bg-white p-8 rounded-lg shadow-lg w-64">
-              <h3 className="text-xl font-semibold text-blue-900 mb-4">Free Trial</h3>
-              <p className="text-gray-600">Access all features for 7 days—no credit card required.</p>
-              <a href="/signup" className="block mt-4 text-center text-blue-700 hover:text-blue-900 font-semibold">Start Free Trial</a>
-            </div>
-            <div className="bg-white p-8 rounded-lg shadow-lg w-64">
-              <h3 className="text-xl font-semibold text-blue-900 mb-4">Pro Plan</h3>
-              <p className="text-gray-600">$49/month</p>
-              <p className="text-gray-600 mt-2">For larger teams with advanced QC tools and priority support.</p>
-              <a href="/signup" className="block mt-4 text-center text-blue-700 hover:text-blue-900 font-semibold">Get Started</a>
-            </div>
-          </div>
         </div>
       </div>
 
