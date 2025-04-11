@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Link from 'next/link' // Ensure Link is correctly imported
+import Link from 'next/link'
 
 export default function Signup() {
   return (
@@ -23,7 +23,7 @@ export default function Signup() {
         <p className="mt-4 text-sm text-gray-600">
           Already have an account? 
           <Link href="/login">
-            <span className="text-blue-700 hover:underline">Sign in</span> {/* Removed <a> tag */}
+            <span className="text-blue-700 hover:underline">Sign in</span>
           </Link>
         </p>
       </div>
