@@ -21,22 +21,22 @@ const QCTools = () => {
           </Link>
           <nav className="space-x-6">
             <Link href="/">
-              <span className="text-blue-700 hover:text-blue-900 transition">Home</span>
+              <a className="text-blue-700 hover:text-blue-900 transition">Home</a>
             </Link>
             <Link href="/qc-tools">
-              <span className="text-blue-700 hover:text-blue-900 transition">QC Tools</span>
+              <a className="text-blue-700 hover:text-blue-900 transition">QC Tools</a>
             </Link>
             <Link href="/pricing">
-              <span className="text-blue-700 hover:text-blue-900 transition">Pricing</span>
+              <a className="text-blue-700 hover:text-blue-900 transition">Pricing</a>
             </Link>
             <Link href="#contact">
-              <span className="text-blue-700 hover:text-blue-900 transition">Contact</span>
+              <a className="text-blue-700 hover:text-blue-900 transition">Contact</a>
             </Link>
             <Link href="/signup">
-              <span className="bg-blue-700 hover:bg-blue-800 text-white px-6 py-3 rounded-lg font-semibold transition">Start Free Trial</span>
+              <a className="bg-blue-700 hover:bg-blue-800 text-white px-6 py-3 rounded-lg font-semibold transition">Start Free Trial</a>
             </Link>
             <Link href="/login">
-              <span className="text-blue-700 font-medium hover:underline transition-all duration-200">Sign In</span>
+              <a className="text-blue-700 font-medium hover:underline transition-all duration-200">Sign In</a>
             </Link>
           </nav>
         </div>
@@ -49,9 +49,9 @@ const QCTools = () => {
           Automate your QC checks, ensure data integrity, and streamline the eDiscovery process before data enters the review stage.
         </p>
         <Link href="/signup">
-          <span className="bg-blue-700 hover:bg-blue-800 text-white py-3 px-8 rounded-lg font-semibold transition-transform transform hover:scale-105">
+          <a className="bg-blue-700 hover:bg-blue-800 text-white py-3 px-8 rounded-lg font-semibold transition-transform transform hover:scale-105">
             Start Free Trial
-          </span>
+          </a>
         </Link>
       </div>
 
