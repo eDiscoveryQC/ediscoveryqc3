@@ -20,11 +20,11 @@ const QCTools = () => {
             />
           </Link>
           <nav className="space-x-6">
-            <Link href="/" className="text-blue-700 hover:text-blue-900 transition">Home</Link>
-            <Link href="/qc-tools" className="text-blue-700 hover:text-blue-900 transition">QC Tools</Link>
-            <Link href="/pricing" className="text-blue-700 hover:text-blue-900 transition">Pricing</Link>
-            <Link href="#contact" className="text-blue-700 hover:text-blue-900 transition">Contact</Link>
-            <Link href="/signup" className="bg-blue-700 hover:bg-blue-800 text-white px-6 py-3 rounded-lg font-semibold transition">Start Free Trial</Link>
+            <Link href="/" className="text-blue-700 hover:text-blue-900 transition duration-300">Home</Link>
+            <Link href="/qc-tools" className="text-blue-700 hover:text-blue-900 transition duration-300">QC Tools</Link>
+            <Link href="/pricing" className="text-blue-700 hover:text-blue-900 transition duration-300">Pricing</Link>
+            <Link href="#contact" className="text-blue-700 hover:text-blue-900 transition duration-300">Contact</Link>
+            <Link href="/signup" className="bg-blue-700 hover:bg-blue-800 text-white px-6 py-3 rounded-lg font-semibold transition duration-300">Start Free Trial</Link>
             <Link href="/login" className="text-blue-700 font-medium hover:underline transition-all duration-200">Sign In</Link>
           </nav>
         </div>
@@ -37,7 +37,7 @@ const QCTools = () => {
           Automate your QC checks, ensure data integrity, and streamline the eDiscovery process before data enters the review stage.
         </p>
         <Link href="/signup">
-          <a className="bg-blue-700 hover:bg-blue-800 text-white py-3 px-8 rounded-lg font-semibold transition-transform transform hover:scale-105">
+          <a className="bg-blue-700 hover:bg-blue-800 text-white py-3 px-8 rounded-lg font-semibold transition-transform transform hover:scale-105 duration-300">
             Start Free Trial
           </a>
         </Link>
@@ -46,7 +46,7 @@ const QCTools = () => {
       {/* Preview of QC Tools */}
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 text-center py-12">
         {/* Automated Hash & Metadata Validation */}
-        <div className="bg-white p-8 rounded-lg shadow-lg hover:scale-105 hover:shadow-2xl transition-all">
+        <div className="bg-white p-8 rounded-lg shadow-lg hover:scale-105 hover:shadow-xl transition-all duration-300">
           <h3 className="text-2xl font-semibold text-blue-900 mb-4">Automated Hash & Metadata Validation</h3>
           <p className="text-gray-600">
             Ensure the integrity of your data with automated checks for hash values and metadata consistency. This prevents errors before review.
@@ -54,7 +54,7 @@ const QCTools = () => {
         </div>
 
         {/* Parent-Child Relationship Validation */}
-        <div className="bg-white p-8 rounded-lg shadow-lg hover:scale-105 hover:shadow-2xl transition-all">
+        <div className="bg-white p-8 rounded-lg shadow-lg hover:scale-105 hover:shadow-xl transition-all duration-300">
           <h3 className="text-2xl font-semibold text-blue-900 mb-4">Parent-Child Relationship Validation</h3>
           <p className="text-gray-600">
             Automatically verify parent-child relationships to ensure all documents are properly associated, saving you time in the review process.
@@ -62,7 +62,7 @@ const QCTools = () => {
         </div>
 
         {/* AI-Powered Insights */}
-        <div className="bg-white p-8 rounded-lg shadow-lg hover:scale-105 hover:shadow-2xl transition-all">
+        <div className="bg-white p-8 rounded-lg shadow-lg hover:scale-105 hover:shadow-xl transition-all duration-300">
           <h3 className="text-2xl font-semibold text-blue-900 mb-4">AI-Powered Insights</h3>
           <p className="text-gray-600">
             Leverage AI to identify key issues in your data, offering quick insights and guiding your review process toward efficiency.
@@ -80,7 +80,7 @@ const QCTools = () => {
               <label className="block mb-1 text-sm font-medium text-gray-700">Your Tool Idea</label>
               <textarea className="w-full border border-gray-300 p-3 rounded-md" rows={6} placeholder="Describe the QC tool you'd like to see..."></textarea>
             </div>
-            <button type="submit" className="bg-blue-700 hover:bg-blue-800 text-white py-3 px-8 rounded-lg font-semibold transition-transform transform hover:scale-105">
+            <button type="submit" className="bg-blue-700 hover:bg-blue-800 text-white py-3 px-8 rounded-lg font-semibold transition-transform transform hover:scale-105 duration-300">
               Submit Your Idea
             </button>
           </div>
