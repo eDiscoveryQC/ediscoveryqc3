@@ -1,4 +1,3 @@
-// pages/qc-tools.tsx
 import Head from 'next/head'
 import Link from 'next/link'
 
@@ -13,13 +12,15 @@ const QCTools = () => {
       <header className="fixed top-0 left-0 w-full bg-white shadow-lg z-50">
         <div className="max-w-7xl mx-auto p-6 flex justify-between items-center">
           {/* Logo in the header */}
-          <a href="#" className="flex items-center">
-            <img 
-              src="/ediscoveryqclogo.svg" 
-              alt="eDiscoveryQC Logo" 
-              className="h-20"
-            />
-          </a>
+          <Link href="/">
+            <a className="flex items-center">
+              <img 
+                src="/ediscoveryqclogo.svg" 
+                alt="eDiscoveryQC Logo" 
+                className="h-20"
+              />
+            </a>
+          </Link>
           <nav className="space-x-6">
             <Link href="/">
               <a className="text-blue-700 hover:text-blue-900 transition">Home</a>
@@ -44,10 +45,10 @@ const QCTools = () => {
       </header>
 
       {/* Hero Section */}
-      <div className="max-w-7xl mx-auto text-center py-12">
-        <h1 className="text-5xl font-extrabold text-blue-900 mb-6">Discover eDiscoveryQC’s Powerful QC Tools</h1>
+      <div className="max-w-7xl mx-auto text-center py-12 mt-24">
+        <h1 className="text-5xl font-extrabold text-blue-900 mb-6">eDiscoveryQC’s Powerful QC Tools</h1>
         <p className="text-lg text-gray-700 mb-8">
-          Our suite of QC tools is designed to automate your eDiscovery workflows, ensuring **data integrity**, **compliance**, and **efficiency** before your data enters the review stage.
+          Automate your QC checks, ensure data integrity, and streamline the eDiscovery process before data enters the review stage.
         </p>
         <Link href="/signup">
           <a className="bg-blue-700 hover:bg-blue-800 text-white py-3 px-8 rounded-lg font-semibold transition-transform transform hover:scale-105">
@@ -59,21 +60,27 @@ const QCTools = () => {
       {/* Preview of QC Tools */}
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 text-center py-12">
         {/* Automated Hash & Metadata Validation */}
-        <div className="bg-white p-8 rounded-lg shadow-lg transform transition-transform hover:scale-105 hover:shadow-2xl">
+        <div className="bg-white p-8 rounded-lg shadow-lg hover:scale-105 hover:shadow-2xl transition-all">
           <h3 className="text-2xl font-semibold text-blue-900 mb-4">Automated Hash & Metadata Validation</h3>
-          <p className="text-gray-600">Ensure the integrity of your data with automated checks for hash values and metadata consistency.</p>
+          <p className="text-gray-600">
+            Ensure the integrity of your data with automated checks for hash values and metadata consistency. This prevents errors before review.
+          </p>
         </div>
 
         {/* Parent-Child Relationship Validation */}
-        <div className="bg-white p-8 rounded-lg shadow-lg transform transition-transform hover:scale-105 hover:shadow-2xl">
+        <div className="bg-white p-8 rounded-lg shadow-lg hover:scale-105 hover:shadow-2xl transition-all">
           <h3 className="text-2xl font-semibold text-blue-900 mb-4">Parent-Child Relationship Validation</h3>
-          <p className="text-gray-600">Automatically verify parent-child relationships to ensure all documents are properly associated.</p>
+          <p className="text-gray-600">
+            Automatically verify parent-child relationships to ensure all documents are properly associated, saving you time in the review process.
+          </p>
         </div>
 
         {/* AI-Powered Insights */}
-        <div className="bg-white p-8 rounded-lg shadow-lg transform transition-transform hover:scale-105 hover:shadow-2xl">
+        <div className="bg-white p-8 rounded-lg shadow-lg hover:scale-105 hover:shadow-2xl transition-all">
           <h3 className="text-2xl font-semibold text-blue-900 mb-4">AI-Powered Insights</h3>
-          <p className="text-gray-600">Leverage AI to quickly identify key issues in large datasets and gain actionable insights.</p>
+          <p className="text-gray-600">
+            Leverage AI to identify key issues in your data, offering quick insights and guiding your review process toward efficiency.
+          </p>
         </div>
       </div>
 
@@ -112,7 +119,6 @@ const QCTools = () => {
           Automated QC checks, actionable insights, and compliance-ready reports—ensuring your eDiscovery process is seamless and error-free.
         </p>
       </div>
-
     </div>
   )
 }
