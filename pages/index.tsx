@@ -29,13 +29,13 @@ export default function Home() {
       <header className="fixed top-0 left-0 w-full bg-white shadow-lg z-50">
         <div className="max-w-7xl mx-auto p-6 flex justify-between items-center">
           {/* Logo in the header */}
-          <a href="/" className="flex items-center">
+          <Link href="/" className="flex items-center">
             <img 
               src="/ediscoveryqclogo.svg" 
               alt="eDiscoveryQC Logo" 
               className="h-20"
             />
-          </a>
+          </Link>
           <nav className="space-x-6">
             <Link href="/" className="text-blue-700 hover:text-blue-900 transition">Home</Link>
             <Link href="/qc-tools" className="text-blue-700 hover:text-blue-900 transition">QC Tools</Link>
